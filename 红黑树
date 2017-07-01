@@ -151,7 +151,7 @@ private:
 		leftmost() = header; //令header的左子节点为自己
 		rightmost()= header; //令header的右节点为自己
 	}
-
+1
 public:
 	rb_tree(const Compare& comp = Compare())
 	    : node_count(0), key_compare(comp) { init();}
