@@ -35,8 +35,7 @@ protected:
     	link_type tmp = get_node();  //配置空间
     	construct(&tmp->value_field, x); //构造内容
     	return tmp;
-    }区
-
+    }
     link_type clone_node(link_type x) {  //赋值一个node
     	link_type tmp = create_node(x->value_field);
     	tmp->color = x->color;
